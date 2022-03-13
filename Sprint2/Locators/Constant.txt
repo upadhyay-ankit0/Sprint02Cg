@@ -1,0 +1,30 @@
+'Constant for New Group Chat--
+
+Dim br,brpg
+Set br=Browser("name:=Skype")
+Set brpg=Browser("name:=Skype").Page("title:=Skype")
+Meet_Now="acc_name:=Meet Now"
+Host_a_Meeting="acc_name:=Host a meeting"
+New_Chat="acc_name:=New Chat"
+Xpath="xpath:=(//BUTTON[@role='menuitem'])[1]"
+Group_name="acc_name:=Group Name: "
+Next_="acc_name:=Next"
+
+Dim a(2)
+a(0)="name:=Supratick Dey"
+a(1)="name:=Abhishek Soni"
+a(2)="name:=Aman Ojha"
+'a(3)="name:=Abhishek Soni.*"
+Done="acc_name:=Done"
+
+
+'Constant for Hosting a meeting
+
+Xpath1="xpath:=//INPUT[@dir='auto']"
+Start_Meeting="acc_name:=Start Meeting"
+End_call="acc_name:=End Call"
+
+
+'Constant for Notification
+Notifications="acc_name:=Notifications, No new notifications."
+
